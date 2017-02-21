@@ -31,5 +31,11 @@ $(function(){
    $('#more').click(function(){
       $('.fw-txt-more').slideToggle();
       $(this).fadeOut();
+   });
+   $('.block1-img-ys').click(function(){
+    $(this).siblings('.block1-img-show').fadeIn();
+   })
+   $('.block1-img-show span').click(function(){
+    $(this).parent().fadeOut();
    })
 })
