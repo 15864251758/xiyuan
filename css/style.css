@@ -220,6 +220,7 @@ a:hover{
 	height: 180px;
 	overflow: hidden;
 	margin-bottom: 10px;
+	position: relative;
 }
 .block1-show{
 	position: absolute;
@@ -833,4 +834,79 @@ a:hover{
 	font-size: 14px;
 	margin-top: 30px;
 	line-height: 30px;
+}
+
+
+
+.wy-mod-banner{
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+.wy-mod-banner .banners{
+	width: 1919px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -959.5px;
+}
+.wy-mod-banner .banner{
+	width: 1919px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -959.5px;
+}
+.wy-mod-banner .focus{
+	width: 978px;
+	margin: 0px auto;
+	padding-top: 470px;
+	text-align: center;
+}
+.wy-mod-banner .focus a {
+    text-decoration: none;
+    z-index: 3;
+    width: 28px;
+    height: 6px;
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    overflow: hidden;
+    margin: 0px 3px;
+    zoom: 1;
+    background: rgba(255,255,255,0.6);
+}
+.wy-mod-banner .focus a:hover{
+	background: #60c1bd;
+}
+.index_banner .focus a .bg-b {
+    background: #fff;
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    width: 28px;
+    height: 6px;
+}
+.focus .on {
+    background: #60c1bd !important;
+}
+.index_banner .focus a .inner {
+    background: #60c1bd;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+    opacity: 0;
+    display: none;
+    display: none;
+    display: none;
+    width: 28px;
+    height: 6px;
 }

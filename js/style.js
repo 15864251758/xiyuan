@@ -37,5 +37,11 @@ $(function(){
    })
    $('.block1-img-show span').click(function(){
     $(this).parent().fadeOut();
-   })
+   });
+
+
+
+
+
+
 })
